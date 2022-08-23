@@ -13,10 +13,10 @@ const buttonLareira = document.querySelector('#lareira');
 const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
 const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
-const AudioFloresta = new Audio("../audios/Floresta.wav")
-const AudioChuva = new Audio("../audios/Chuva.wav")
-const AudioCafeteria = new Audio("../audios/Cafeteria.wav")
-const AudioLareira = new Audio("../audios/Lareira.wav")
+const AudioFloresta = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Floresta.wav")
+const AudioChuva = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Chuva.wav")
+const AudioCafeteria = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Cafeteria.wav")
+const AudioLareira = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Lareira.wav")
 
 const soundPad = document.querySelector('sound_pad');
 
@@ -67,7 +67,7 @@ function countdown(){
     updateTimerDisplay(newMinutes,newSeconds);
     countdown();
     
-  }, 5);
+  }, 1000);
 }
 
 buttonFloresta.addEventListener('click', function(){
