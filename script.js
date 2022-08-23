@@ -13,10 +13,10 @@ const buttonLareira = document.querySelector('#lareira');
 const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
 const kitchenTimer = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
-const AudioFloresta = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Floresta.wav")
-const AudioChuva = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Chuva.wav")
-const AudioCafeteria = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Cafeteria.wav")
-const AudioLareira = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Lareira.wav")
+const AudioFloresta = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Floresta.wav?raw=true")
+const AudioChuva = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Chuva.wav?raw=true")
+const AudioCafeteria = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/raw/b9fa1badf9fd14787d13e41074e3b6c162e8a0e5/audios/Cafeteria.wav")
+const AudioLareira = new Audio("https://github.com/augustoclj/Stage-05---FocusTimer-2.0/blob/main/audios/Lareira.wav?raw=true")
 
 const soundPad = document.querySelector('sound_pad');
 
